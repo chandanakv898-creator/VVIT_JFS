@@ -8,7 +8,7 @@ public class P1 {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/Tech_DB";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "password";
+    private static final String DB_PASSWORD = "Chandu@123";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)) {
